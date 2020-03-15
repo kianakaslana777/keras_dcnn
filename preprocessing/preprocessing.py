@@ -69,7 +69,6 @@ def handleLabel(label):
 
 dataset = kddcup99.fetch_kddcup99(shuffle=True)
 data = dataset.data
-print(data[0])
 label = dataset.target
 data = preHandel_data(data)
 label = preHandel_target(label)
